@@ -44,9 +44,6 @@ export function WhatWeDo() {
               <h3 className="font-display text-3xl text-navy sm:text-4xl">
                 {c.title}
               </h3>
-              <h3 className="mt-8 font-display text-3xl text-navy sm:text-4xl">
-                {c.title}
-              </h3>
               <p className="mt-4 text-sm font-bold leading-relaxed text-navy/70">
                 {c.desc}
               </p>
