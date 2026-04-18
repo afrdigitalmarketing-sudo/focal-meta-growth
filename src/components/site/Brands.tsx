@@ -1,14 +1,19 @@
 import carepodLogo from "@/assets/brands/carepod.png";
+import platedLogo from "@/assets/brands/plated.png";
+import chamberlainLogo from "@/assets/brands/chamberlain-coffee.png";
+import volcanicaLogo from "@/assets/brands/volcanica.png";
+import mandrnLogo from "@/assets/brands/mandrn.png";
+import lunaSkyeLogo from "@/assets/brands/luna-skye.png";
 
 type Brand = { name: string; logo?: string };
 
 const brands: Brand[] = [
-  { name: "ARCHWAY" },
-  { name: "FABLE" },
-  { name: "CAREPOD", logo: carepodLogo },
-  { name: "GROVE" },
-  { name: "COVE" },
-  { name: "DRIFT" },
+  { name: "Carepod", logo: carepodLogo },
+  { name: "Plated Skin Science", logo: platedLogo },
+  { name: "Chamberlain Coffee", logo: chamberlainLogo },
+  { name: "Volcanica Coffee", logo: volcanicaLogo },
+  { name: "Mandrn", logo: mandrnLogo },
+  { name: "Luna Skye", logo: lunaSkyeLogo },
 ];
 
 export function Brands() {
@@ -24,17 +29,17 @@ export function Brands() {
           {[...brands, ...brands].map((b, i) => (
             <div
               key={i}
-              className="flex h-12 min-w-[180px] items-center justify-center text-navy/30 grayscale transition-all duration-300 hover:text-navy hover:grayscale-0 hover:opacity-100"
+              className="flex h-16 min-w-[180px] items-center justify-center"
             >
               {b.logo ? (
                 <img
                   src={b.logo}
                   alt={`${b.name} logo`}
-                  className="max-h-12 w-auto object-contain opacity-60 transition-opacity duration-300 hover:opacity-100"
+                  className="max-h-14 w-auto object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
                   loading="lazy"
                 />
               ) : (
-                <span className="font-display text-3xl tracking-widest">
+                <span className="font-display text-3xl tracking-widest text-navy/30 transition-colors duration-300 hover:text-navy">
                   {b.name}
                 </span>
               )}
