@@ -21,7 +21,7 @@ export function Hero() {
               href="#calendar"
               className="inline-flex items-center gap-2 rounded-md bg-brand-blue px-6 py-3 text-sm font-bold text-white shadow-sm transition-transform hover:-translate-y-0.5 hover:bg-brand-blue/90"
             >
-              Book a Free Audit <span aria-hidden>→</span>
+              Book A Free Strategy Call <span aria-hidden>​</span>
             </a>
             <a
               href="#what-we-do"
