@@ -14,6 +14,11 @@ import busyBabyLogo from "@/assets/brands/busy-baby.png";
 import helloBelloLogo from "@/assets/brands/hello-bello.png";
 import modLightingLogo from "@/assets/brands/mod-lighting.png";
 import aspenCleanLogo from "@/assets/brands/aspen-clean.png";
+import xirenaLogo from "@/assets/brands/xirena.png";
+import frostNycLogo from "@/assets/brands/frost-nyc.png";
+import capucinneLogo from "@/assets/brands/capucinne.png";
+import wholesaleJewelryLogo from "@/assets/brands/wholesale-jewelry.png";
+import codeageLogo from "@/assets/brands/codeage.png";
 
 type Brand = { name: string; logo: string };
 
@@ -40,6 +45,14 @@ const row3: Brand[] = [
   { name: "Hello Bello", logo: helloBelloLogo },
   { name: "MOD Lighting", logo: modLightingLogo },
   { name: "Aspen Clean", logo: aspenCleanLogo },
+];
+
+const row4: Brand[] = [
+  { name: "Xírena", logo: xirenaLogo },
+  { name: "Frost NYC", logo: frostNycLogo },
+  { name: "Capucinne", logo: capucinneLogo },
+  { name: "Wholesale Jewelry", logo: wholesaleJewelryLogo },
+  { name: "Codeage", logo: codeageLogo },
 ];
 
 function MarqueeRow({ brands, reverse = false }: { brands: Brand[]; reverse?: boolean }) {
@@ -79,6 +92,7 @@ export function Brands() {
         <MarqueeRow brands={row1} />
         <MarqueeRow brands={row2} reverse />
         <MarqueeRow brands={row3} />
+        <MarqueeRow brands={row4} reverse />
       </div>
     </section>
   );
