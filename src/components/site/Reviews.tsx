@@ -58,7 +58,7 @@ function Stars() {
 export function Reviews() {
   const list = [...reviews, ...reviews];
   return (
-    <section className="py-20 sm:py-28">
+    <section className="pb-20 pt-4 sm:pb-28 sm:pt-6">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 className="max-w-3xl font-display text-4xl leading-[0.95] text-navy sm:text-5xl lg:text-6xl">
           What founders say <span className="text-brand-blue">after working with us.</span>
