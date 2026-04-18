@@ -13,8 +13,8 @@ export function Hero() {
             We turn <span className="text-brand-blue">Meta spend</span> into measurable DTC growth.
           </h1>
           <p className="mt-6 max-w-2xl text-base font-bold leading-relaxed text-navy/70 sm:text-lg">
-            Paid media management built for e-commerce brands that have outgrown
-            generalist agencies — and need a real creative and media buying edge.
+            Built for e-commerce brands that want a real specialist on their most
+            important paid channel, not another agency juggling eight platforms.
           </p>
           <div className="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
             <a
