@@ -37,8 +37,8 @@ function Index() {
         <Hero />
         <Brands />
         <WhatWeDo />
-        <HowItWorks />
         <Reviews />
+        <HowItWorks />
         <Calendar />
       </main>
       <Footer />
