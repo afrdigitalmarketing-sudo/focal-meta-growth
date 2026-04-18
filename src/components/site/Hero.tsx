@@ -13,8 +13,8 @@ export function Hero() {
             Serious About <span className="text-brand-blue">Meta</span>? So Are We.
           </h1>
           <p className="mt-6 max-w-2xl text-base font-bold leading-relaxed text-navy/70 sm:text-lg">
-            Built for e-commerce brands that want a real specialist on their most
-            important paid channel, not another agency juggling eight platforms.
+            We exist to do one thing — run your Meta ads with the depth of focus
+            your most important growth channel deserves.
           </p>
           <div className="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
             <a
