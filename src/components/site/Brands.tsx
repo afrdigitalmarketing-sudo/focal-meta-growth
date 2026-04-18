@@ -39,12 +39,12 @@ function MarqueeRow({ brands, reverse = false }: { brands: Brand[]; reverse?: bo
         {[...brands, ...brands].map((b, i) => (
           <div
             key={i}
-            className="flex h-16 min-w-[180px] items-center justify-center"
+            className="flex h-20 w-[200px] shrink-0 items-center justify-center"
           >
             <img
               src={b.logo}
               alt={`${b.name} logo`}
-              className="max-h-14 w-auto object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
+              className="max-h-full max-w-full object-contain opacity-60 grayscale mix-blend-multiply transition-all duration-300 hover:opacity-100 hover:grayscale-0"
               loading="lazy"
             />
           </div>
