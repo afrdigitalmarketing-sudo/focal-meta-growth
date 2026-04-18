@@ -12,7 +12,7 @@ const steps = [
   {
     n: "03",
     title: "Execution and Scale",
-    desc: "We run the ads. You see weekly reports with clear numbers. We scale what works, kill what doesn't, and compound the wins.",
+    desc: "We run the ads. We scale what works, kill what doesn't, and compound the wins to reach your business goals",
   },
 ];
 
