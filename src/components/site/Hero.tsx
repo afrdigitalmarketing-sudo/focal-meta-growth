@@ -1,7 +1,7 @@
 const stats = [
-  { value: "$12M+", label: "Ad spend managed" },
-  { value: "3.8x", label: "Average blended ROAS" },
-  { value: "40+", label: "DTC brands scaled" },
+  { value: "$100m+", label: "Ad spend managed" },
+  { value: "3.2x", label: "Average blended ROAS" },
+  { value: "80+", label: "DTC brands scaled" },
 ];
 
 export function Hero() {
