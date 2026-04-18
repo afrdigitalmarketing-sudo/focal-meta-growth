@@ -29,9 +29,17 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Focal — Meta Ads Agency for DTC Brands" },
+      { title: "Focal — Meta Ads Specialists for DTC Brands" },
       { name: "author", content: "Focal" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Focal — Meta Ads Specialists for DTC Brands" },
+      { name: "twitter:title", content: "Focal — Meta Ads Specialists for DTC Brands" },
+      { name: "description", content: "Focal is a marketing website for a Meta ads agency, showcasing expertise in driving DTC growth." },
+      { property: "og:description", content: "Focal is a marketing website for a Meta ads agency, showcasing expertise in driving DTC growth." },
+      { name: "twitter:description", content: "Focal is a marketing website for a Meta ads agency, showcasing expertise in driving DTC growth." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8d869368-ffc3-45e8-aaea-12d3350cf261/id-preview-932d43ab--a495561e-2895-4e01-8006-1e949595ebd7.lovable.app-1776532215933.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8d869368-ffc3-45e8-aaea-12d3350cf261/id-preview-932d43ab--a495561e-2895-4e01-8006-1e949595ebd7.lovable.app-1776532215933.png" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
