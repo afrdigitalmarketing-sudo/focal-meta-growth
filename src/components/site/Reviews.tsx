@@ -1,39 +1,45 @@
 const reviews = [
   {
     quote:
-      "They rebuilt our entire Meta account in the first month. By month three we were at a 4.1x ROAS with half the creative waste.",
-    name: "Jordan R.",
-    role: "Founder, ARCHWAY skincare DTC",
+      "Working with Focal was a terrific experience as we navigated rapid growth. From the start, they delivered clear, actionable insights that helped us optimize our ad spend and make smarter, more data-driven decisions. Their strategic recommendations played a crucial role in deepening our ad strategy during a year of phenomenal growth",
+    name: "Sean Kim",
+    role: "Executive Director, Carepod",
   },
   {
     quote:
-      "Finally an agency that speaks the language of contribution margin. Every decision ties back to profit — no vanity metrics.",
-    name: "Marcus L.",
-    role: "CMO, FABLE home goods",
+      "Focal stepped in at a critical moment after our paid media strategist left. From the start, they brought structure, clarity, and strong strategic oversight to a function that needed immediate leadership. With their guidance, we reorganized our paid approach and went on to achieve a record-breaking Black Friday and Cyber Monday — and a new high in monthly revenue shortly after.",
+    name: "Alexandra Haskell",
+    role: "VP of Marketing, Plated",
   },
   {
     quote:
-      "Our CPAs dropped 34% in 60 days. The creative strategy alone was worth the retainer. They know exactly how the algorithm reads an ad.",
-    name: "Sofia K.",
-    role: "Founder, KALO supplement brand",
+      "There is a night and day difference before working with Focal and after. Unlike past experiences, they didn't just consult — they brought real clarity. It was remarkable to see someone cut through the fog and make things crystal clear. They nailed down our KPIs and handed us a roadmap to success. No more second-guessing. Just a clear path forward",
+    name: "Jimmy Le",
+    role: "Head Of Performance Marketing, Restore Patch",
   },
   {
     quote:
-      "We were burning budget on a bloated campaign structure. They consolidated everything, relaunched in two weeks, and hit our best ROAS month ever.",
-    name: "Daniel M.",
-    role: "Co-founder, GROVE wellness DTC",
+      "Focal's expertise in optimizing our Meta and Google campaigns led to significant improvements in traffic, conversions, and return on investment. Their data-driven approach helped us make more informed marketing decisions and reallocate resources more effectively. Their strategic mindset and analytical expertise have made a lasting impact.",
+    name: "Maurice Contreras",
+    role: "CEO, Volcanica Coffee",
   },
   {
     quote:
-      "The weekly reports are the best I've seen from any vendor. Clean, honest, and always with a clear next step. No fluff.",
-    name: "Priya N.",
-    role: "Growth Lead, COVE apparel",
+      "Focal has been an absolute game-changer for our paid marketing. Their ability to simplify complex analytics and deliver clear, strategic recommendations has been invaluable. Responsive, knowledgeable, and genuinely dedicated — their expertise will be an asset to any brand they work with.",
+    name: "Faith McCoy",
+    role: "Founder, True Glory Hair",
   },
   {
     quote:
-      "Scaled from $15k to $60k monthly ad spend without the ROAS falling off a cliff. That's what they promised. That's what happened.",
-    name: "Tyler R.",
-    role: "Founder, DRIFT outdoor gear",
+      "Focal has been an exceptional partner to our brand. They consistently brought strategic clarity, rigorous analysis, and a deep understanding of paid media. They helped us navigate major shifts in performance, refine our strategy, and scale efficiently. Reliable, fast, and genuinely invested in driving results — Focal operates like a true extension of your team",
+    name: "Gustav H.",
+    role: "CEO, Chamberlain Coffee",
+  },
+  {
+    quote:
+      "Thanks to Focal, our business has experienced remarkable growth. Before working with them, we were investing blindly in our paid channels and hoping for positive outcomes. Now I feel confident in my ability to assess the health of our business and use those insights to lead my team more effectively. They are one of the best in the business.",
+    name: "Kelly Kong",
+    role: "Founder & CEO, Mandrn",
   },
 ];
 
