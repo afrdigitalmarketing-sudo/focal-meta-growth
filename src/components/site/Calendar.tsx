@@ -25,7 +25,7 @@ export function Calendar() {
 
         <div
           className="calendly-inline-widget mx-auto mt-10 overflow-hidden rounded-xl border border-white/10 bg-surface"
-          data-url="https://calendly.com/focal-agency/audit?hide_gdpr_banner=1&background_color=ffffff&text_color=0e1f38&primary_color=1a6ef5"
+          data-url="https://calendly.com/afrdigitalmarketing/30min?hide_gdpr_banner=1&background_color=ffffff&text_color=0e1f38&primary_color=1a6ef5"
           style={{ minWidth: "320px", height: "700px" }}
         />
 
