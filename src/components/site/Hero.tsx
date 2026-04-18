@@ -10,7 +10,7 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-4 pb-16 pt-16 sm:px-6 sm:pt-24 lg:px-8 lg:pb-24 lg:pt-32">
         <div className="max-w-4xl">
           <h1 className="font-display text-5xl leading-[0.95] text-navy sm:text-6xl md:text-7xl lg:text-8xl">
-            We turn <span className="text-brand-blue">Meta spend</span> into measurable DTC growth.
+            Serious About <span className="text-brand-blue">Meta</span>? So Are We.
           </h1>
           <p className="mt-6 max-w-2xl text-base font-bold leading-relaxed text-navy/70 sm:text-lg">
             Built for e-commerce brands that want a real specialist on their most
