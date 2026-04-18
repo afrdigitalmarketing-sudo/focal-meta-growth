@@ -29,8 +29,8 @@ export function WhatWeDo() {
           </h2>
           <p className="text-base font-bold leading-relaxed text-navy/70 lg:pt-3">
             We specialize exclusively in Meta. That focus is the point — you get a team
-            that knows the algorithm, the creative patterns, and the data signals that
-            actually move the needle.
+            of true experts that knows the algorithm, the creative patterns, and the
+            data signals that actually move the needle.
           </p>
         </div>
 
