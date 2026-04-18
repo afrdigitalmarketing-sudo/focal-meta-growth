@@ -43,7 +43,6 @@ export function WhatWeDo() {
               <span className="absolute inset-x-0 top-0 h-[3px] origin-left scale-x-0 bg-brand-blue transition-transform duration-500 group-hover:scale-x-100" />
               <div className="flex items-center justify-between">
                 <span className="font-display text-2xl text-navy/30">{c.n}</span>
-                <span className="text-2xl text-brand-blue">{c.icon}</span>
               </div>
               <h3 className="mt-8 font-display text-3xl text-navy sm:text-4xl">
                 {c.title}
